@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Quiz</title>
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=37401&format=png&color=000000" type="image/png">
+
+</head>
+<body>
+    <header>
+        
+    </header>
+    <div class="quiz-container">
+        <!-- Progress bar -->
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+
+        <!-- Question number -->
+        <div class="question-number">Question 1 of 10</div>
+
+        <!-- Question text -->
+        <div class="question">Loading question...</div>
+
+        <!-- Answer options -->
+        <div class="answers">
+            <button class="answer-button" data-answer=""></button>
+            <button class="answer-button" data-answer=""></button>
+            <button class="answer-button" data-answer=""></button>
+            <button class="answer-button" data-answer=""></button>
+        </div>
+
+        <!-- Next button -->
+        <button class="next-button" disabled>
+            Next Question
+            <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+            </svg>
+        </button>
+    </div>
+
+    <audio id="background-music" autoplay loop>
+        <source src="../assets/music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <img src="../assets/emoji.webp" class="jesus-img" style="display:none;">
+
+    <script src="../js/quiz.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</body>
+</html>

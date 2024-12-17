@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerseWise - Register</title>
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=37401&format=png&color=000000" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/forms.css">
+    <script src="../js/login.js" defer></script>  
+    
+</head>
+<body>
+    <div class="login">
+        <h1>VerseWise</h1>
+        <h2>Login</h2>
+        <form  method="POST" id="login-form">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            
+            <button type="submit" id="login-button">login</button>
+        </form>
+        <p>Don't have an account? <a href="../actions/register.php">Register</a></p>
+        <div id="success" class="message success">Registration Successful</div>
+        <div id="error-messages" class="message error"></div>
+    </div>
+</body>
+</html>

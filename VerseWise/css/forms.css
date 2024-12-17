@@ -1,0 +1,109 @@
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --text-color: #ffffff;
+    --background-color: #2c3e50;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1581447109200-bf2769116351') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.sign-up, .login {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+}
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 0 auto;
+    border-radius:20px;
+    
+}
+button:hover {
+    background: rgb(21, 128, 0);
+    font-weight:bolder;
+}
+.form-container {
+    text-align: center;
+}
+.message {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+.input-group {
+    position: relative;
+}
+
+.input-group small {
+    color: #721c24; /* Dark red color for error messages */
+    font-size: 12px;
+    display: none; /* Initially hidden */
+}
+
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+
+
+
+
+
